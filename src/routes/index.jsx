@@ -2,7 +2,7 @@
 import {createBrowserRouter} from "react-router-dom"
 import Main from "../layouts/main/Main"
 import Dashboard from "../pages/Dashboard/Dashboard"
-import About from "../pages/about/About"
+import Support from "../pages/Support/Support"
 
 export const routes = createBrowserRouter([
     {
@@ -14,8 +14,8 @@ export const routes = createBrowserRouter([
                 Component : Dashboard
             },
             {
-                path : "/about",
-                Component : About
+                path : "/support",
+                Component : Support
             }
         ]
     }

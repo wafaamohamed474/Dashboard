@@ -35,7 +35,7 @@ const Sidebar = () => {
           <SidebarItem name="فرق العمل" icon={<UserGroupIcon className="text-white p-1" />}/>
           <SidebarItem name="التقارير" icon={<DocumentTextIcon className="text-white p-1" />}/>
           <SidebarItem name= "محاداثات" icon={<ChatBubbleLeftIcon className="text-white p-1" />}/>
-          <SidebarItem name="التواصل والدعم" icon={<PhoneIcon className="text-white p-1" />}/>
+          <SidebarItem name="التواصل والدعم" url="/support" icon={<PhoneIcon className="text-white p-1" />}/>
         </ul>
       </div>
     </div>
