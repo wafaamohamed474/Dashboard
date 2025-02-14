@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 h1{
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 input:focus{
 outline: 0;
