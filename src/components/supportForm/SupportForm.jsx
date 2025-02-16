@@ -1,7 +1,10 @@
 import { PaperClipIcon } from "@heroicons/react/24/outline";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import * as yup from "yup";
+
+
 const SupportForm = () => {
+    
   const initialValues = {
     name: "",
     email: "",
